@@ -39,16 +39,16 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/RRomeo-RJ/Romeo-musicBot",
+    "https://github.com/BWFXMUSIC/Disha",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/ROMEO_OP")
+    "SUPPORT_CHANNEL", "https://t.me/MUSICBOT_OWNER")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ROMEOBOT_OP")
+    "SUPPORT_GROUP", "https://t.me/BWF_MUSIC1")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
